@@ -10,11 +10,15 @@
     --top-find:#38434f;
     --top-menu:rgba(255,255,255,0.9);
     --menu-hover:rgba(255,255,255,0.4);
+    --back-card:#1b2226;
+    --link-blue:#70b5f9;
+    --text-black:rgba(0,0,0,0.75);
 }
 
 body{
     background-color: #000;
     font-family: 'Roboto', sans-serif;
+    color: #fff;
 }
 
 /*Header*/
@@ -84,4 +88,149 @@ header{
 }
 .menu a:hover{
     color: var(--menu-hover);
+}
+
+/*Main*/
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.card{
+    background-color: var(--back-card);
+    border-radius: 16px;
+    padding-bottom: 15px;
+}
+
+.left{
+    max-width: 1090px;
+    width: 100%;
+    margin-right: 2rem;
+}
+
+
+.right{
+    max-width: 320px;
+    width: 100%;
+}
+
+.leftCardCapa img{
+    width: 100%;
+}
+
+.leftCardPerfil img{
+    margin-top: -160px;
+    width: 220px;
+    height: 220px;
+}
+
+.leftCardPerfil,
+.leftCardInfo,
+.leftCardConexoes,
+.leftCardBtn{
+    padding: 8px 24px 0;
+}
+
+.leftCardInfoName h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--top-menu);
+}
+
+.leftCardInfoName span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--top-menu);
+}
+
+.leftCardInfoName p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--menu-hover);
+}
+
+.leftCardInfoName{
+    grid-area: nome;
+}
+
+.leftCardInfoEmpresa{
+    grid-area: empresa;
+}
+
+.leftCardInfoLocal{
+    grid-area: localidade;
+}
+
+.leftCardInfo{
+    display: grid;
+    grid-template-areas: 
+    "nome empresa"
+    "localidade empresa";
+}
+
+.leftCardInfoEmpresa1,
+.leftCardInfoEmpresa2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.leftCardInfoLocal span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--menu-hover);
+}
+
+.leftCardInfoLocal a{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--link-blue);
+    text-decoration: none;
+
+}
+
+.leftCardInfoLocal i,
+.leftCardConexoes i{
+    font-size: 5px;
+    color: var(--top-find);
+    text-align: center;
+    margin: 0 5px;
+}
+
+.leftCardConexoes{
+    padding: 1px 24px;
+}
+
+.leftCardConexoes a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--link-blue);
+    text-decoration: none;
+}
+
+.leftCardBtn{
+    padding: 18px 24px;
+}
+
+.leftCardBtn a{
+    border: 1px solid var(--link-blue);
+    padding: 6px 16px;
+    border-radius: 16px;
+    color: var(--link-blue);
+    text-decoration: none;
+    margin-right: 15px;
+    margin-top: 1rem;
+}
+
+.leftCardBtn .btnMessagem{
+    color: var(--text-black);
+    background-color: var(--link-blue);
 }
