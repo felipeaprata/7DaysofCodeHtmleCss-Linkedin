@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +19,7 @@
 
 body{
     background-color: #000;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: #fff;
 }
 
@@ -233,4 +235,57 @@ main{
 .leftCardBtn .btnMessagem{
     color: var(--text-black);
     background-color: var(--link-blue);
+}
+
+/*RightCard*/
+.rightCard{
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.rightCard h3{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--top-menu);
+    margin-bottom: 1rem;
+}
+
+.rightCardPeople{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.rightCardPeople img{
+    width: 48px;
+    height: 48px;
+    align-self: flex-start;
+}
+
+.rightCardPeopleInfo span{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--top-menu);
+}
+
+.rightCardPeopleInfo p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--menu-hover);
+    margin-bottom: 7px;
+}
+
+.rightCardPeopleInfo a{
+    padding: 3px 15px;
+    text-decoration: none;
+    border: 1px solid var(--top-menu);
+    border-radius: 16px;
+    color: var(--top-menu);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
 }
