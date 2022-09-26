@@ -450,3 +450,125 @@ main{
     color: var(--menu-hover);
     text-align: center;
 }
+
+/*Left Card About*/
+.leftCardAbout{
+    margin-bottom: 1rem;
+    padding: 16px 15px;
+}
+
+.leftCardAbout>span{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--top-menu);
+}
+
+.leftCardAbout>p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+
+/*Left Card Experiências*/
+.leftCardExp{
+    margin-bottom: 1rem;
+    padding: 16px 15px;
+}
+
+.leftCardExpInfo>span{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--top-menu);
+}
+
+.leftCardExpInfoDesc{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.leftCardExpInfoDescText{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.leftCardExpInfoDescText>span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--top-menu); 
+}
+
+.leftCardExpInfoDescText>p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--menu-hover);
+}
+
+.leftCardExpInfoDesc{
+    display: flex;
+}
+
+.leftCardExpInfoDescPoint{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.leftCardExpInfoDescPoint>img{
+    margin-bottom: 15px;
+}
+
+.expText{
+    margin-left: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.expText>h6{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--top-menu);
+}
+
+.expText>p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--top-menu);
+}
+
+.leftCardExpInfoDescTextTime{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.leftCardExpInfoDescTextTime>img{
+    width: 4px;
+    height: 4px;
+    border-radius: 5px;
+}
+
+.leftCardExpInfoDescTextTime>p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--menu-hover);
+}
+
+.expText>span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--menu-hover);
+}
