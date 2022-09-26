@@ -572,3 +572,92 @@ main{
     line-height: 20px;
     color: var(--menu-hover);
 }
+
+/*Left Card Formação*/
+.leftCardAcad{
+    padding: 16px 15px;
+    margin-bottom: 1rem;
+}
+
+.leftCardAcadInfo>h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--top-menu);
+    margin-bottom: 10px;
+}
+
+.leftCardAcadInfoDesc{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.leftCardAcadInfoDesc>img{
+    width: 48px;
+    height: 48px;
+}
+
+.leftCardAcadInfoDescText{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.leftCardAcadInfoDescText>h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--top-menu);
+}
+
+.leftCardAcadInfoDescText>span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--top-menu);
+}
+
+.leftCardAcadInfoDescText>p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--menu-hover);
+}
+
+/*Left card Idiomas*/
+.leftCardLang{
+    padding: 16px 15px;
+    margin-bottom: 1rem;
+}   
+
+.leftCardLangInfo>h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--top-menu);
+    margin-bottom: 10px;
+}
+
+.leftCardLangInfoDesc{
+    margin-bottom: 1rem;
+}
+
+.leftCardLangInfoDesc>span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.leftCardLangInfoDesc>p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: var(--menu-hover);
+}
+
+.langPort{
+    border-bottom: 1px solid var(--menu-hover);
+    padding-bottom: 1rem;
+}
