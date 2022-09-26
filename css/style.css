@@ -297,6 +297,7 @@ main{
 /*Left Card Destaques*/
 .leftCardHigh{
     padding: 16px 15px;
+    margin-bottom: 1rem;
 }
 
 .leftCardHigh h5{
@@ -313,8 +314,8 @@ main{
     display: inline-flex;
     flex-direction: column;
     flex: 1;
-    width: 33%;
-
+    width: 32%;
+    margin: 0 5px;
 }
 
 .publiInfo span{
@@ -368,4 +369,84 @@ main{
     line-height: 20px;
     color: var(--menu-hover);
     margin-right: 15px;
+}
+
+/*Left Card Atividades*/
+.leftCardActi{
+    margin-bottom: 1rem;
+    padding: 16px 15px;
+}
+
+.leftCardActiInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftCardActiInfo>span{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--top-menu);
+}
+
+.leftCardActiInfo>p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--link-blue);
+    margin-bottom: 15px;
+}
+
+.leftCardActiInfoDes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    border-bottom: 1px solid var(--menu-hover);
+    margin-bottom: 1rem;
+    padding-bottom: 8px;
+}
+
+.leftCardActiInfoDesTitulo{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.leftCardActiInfoDesTitulo span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--menu-hover);
+}
+
+.leftCardActiInfoDesTitulo img{
+    width: 2px;
+    height: 2px;
+    border-radius: 15px;
+}
+
+.leftCardActiInfoDesTex{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.leftCardActiInfoDesTex>img{
+    width: 64px;
+    height: 64px;
+}
+
+.leftCardActiInfoDesTex>p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.leftCardActiInfo>.leftCardActiInfoFooter{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--menu-hover);
+    text-align: center;
 }
